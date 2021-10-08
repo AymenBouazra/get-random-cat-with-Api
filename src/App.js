@@ -3,7 +3,7 @@ import './App.css'
 
 function App(){
     const CatApi="https://api.thecatapi.com/v1/images/search"
-    const [CatURL,setCat] = useState("")
+    const [CatURL,setCat] = useState("https://cdn2.thecatapi.com/images/9ch.jpg")
     function randomCat(){
         fetch(CatApi)
             .then((res)=>res.json())   
